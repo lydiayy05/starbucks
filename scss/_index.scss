@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+// .info,.navbar-container,.navbar,.navbar img,.burger,.menu,.map-icon,.navbar-container ul{
+//     border:red solid 1px;
+// }
+
+.navbar {
+    background-color: #f6f5f5;
+    width: auto;
+    height: 100px;
+}
+
+
+.navbar img {
+    width: 60px;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.navbar-container {
+    display: block;
+    text-align: center;
+    width: 150px;
+    float: right;
+}
+
+.navbar input {
+    display: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #5d5d5d;
+}
