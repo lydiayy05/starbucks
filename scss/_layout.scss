@@ -67,7 +67,7 @@
 
 .detail {
     // width: 100%;
-    line-height: 3rem;
+    line-height: 2.7rem;
 
     // h1,h3{
     //     line-height:5rem;
@@ -79,7 +79,7 @@
 
     img {
         width: 30%;
-        // max-width: 80%;
+        // max-width: 50%;
         margin-top: 30px;
     }
 }
@@ -102,27 +102,44 @@
 .ad {
     cursor: pointer;
     position: fixed;
-    top: 50%;
+    top: 30%;
     right: 0;
     width: 25%;
     max-width: 150px;
     border-radius: 15px;
 }
 
-// footer
-ul{
-    padding:0;
-    a{
-        display: inline-block;
-        text-decoration: none;
-        color:#393939;
+.footer-menu {
+    list-style-type: none;
+}
+
+.footer-menu {
+    // border: red 1px solid;
+    width: 20%;
+    display: inline-block;
+    margin: 20px 10px;
+    vertical-align: text-top;
+
+    .item {
+        line-height: 4rem;
+        font-size: 16px;
+    }
+
+    .submenu-item {
+        line-height: 2rem;
+        font-size: 12px;
+    }
+
+    p {
+        cursor: pointer;
     }
 }
 
-.footer-menu{
-    list-style-type:none;
-    background-color: #ececec;
+.footer-guid{
+    display: none;
 }
+
+
 
 
 // }
@@ -198,7 +215,6 @@ ul{
     .login button {
         border-radius: 50px;
         border: white solid 1px;
-        // width: 100px;
         color: white;
     }
 
@@ -214,7 +230,7 @@ ul{
 
         img {
             width: fit-content;
-            padding-top: 20px;
+            // padding-top: 20px;
         }
     }
 
@@ -223,6 +239,10 @@ ul{
         // float: left;
         h2 {
             margin-bottom: 1.2rem;
+        }
+        img{
+        width: 50%;
+
         }
     }
 
@@ -258,6 +278,36 @@ ul{
     .ad {
         width: 150px;
     }
+
+    .footer-content {
+        background-image: url(/images/wordmark_footer.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-position-x: 98%;
+    }
+
+
+    .footer-menu {
+
+        .item {
+            line-height: 4rem;
+            font-size: 20px;
+        }
+
+        .submenu-item {
+            line-height: 2rem;
+            font-size: 16px;
+        }
+    }
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -296,6 +346,14 @@ ul{
     .borrow-content,
     .delivery-content {
         height: 150px;
+    }
+
+    // .footer-menu{
+    //     width:20%;
+    // }
+    .footer-guid{
+        display: block;
+        font-size: 14px;
     }
 
 

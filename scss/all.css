@@ -127,6 +127,26 @@ main {
   margin-bottom: 5px;
 }
 
+footer ul li {
+  display: inline;
+}
+
+footer {
+  width: 100%;
+}
+
+.footer-content, .footer-guid {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #ececec;
+}
+
+.footer-container {
+  margin: 0 20px;
+}
+
 .navbar img {
   width: 60px;
   padding: 20px;
@@ -187,7 +207,7 @@ main {
 }
 
 .detail {
-  line-height: 3rem;
+  line-height: 2.7rem;
 }
 
 .login {
@@ -214,25 +234,37 @@ main {
 .ad {
   cursor: pointer;
   position: fixed;
-  top: 50%;
+  top: 30%;
   right: 0;
   width: 25%;
   max-width: 150px;
   border-radius: 15px;
 }
 
-ul {
-  padding: 0;
-}
-ul a {
-  display: inline-block;
-  text-decoration: none;
-  color: #393939;
+.footer-menu {
+  list-style-type: none;
 }
 
 .footer-menu {
-  list-style-type: none;
-  background-color: #ececec;
+  width: 20%;
+  display: inline-block;
+  margin: 20px 10px;
+  vertical-align: text-top;
+}
+.footer-menu .item {
+  line-height: 4rem;
+  font-size: 16px;
+}
+.footer-menu .submenu-item {
+  line-height: 2rem;
+  font-size: 12px;
+}
+.footer-menu p {
+  cursor: pointer;
+}
+
+.footer-guid {
+  display: none;
 }
 
 @media screen and (min-width: 765px) {
@@ -307,10 +339,12 @@ ul a {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    padding-top: 20px;
   }
   .login h2 {
     margin-bottom: 1.2rem;
+  }
+  .login img {
+    width: 50%;
   }
   .d-flex {
     display: flex;
@@ -341,6 +375,20 @@ ul a {
   .ad {
     width: 150px;
   }
+  .footer-content {
+    background-image: url(/images/wordmark_footer.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 98%;
+  }
+  .footer-menu .item {
+    line-height: 4rem;
+    font-size: 20px;
+  }
+  .footer-menu .submenu-item {
+    line-height: 2rem;
+    font-size: 16px;
+  }
 }
 @media (min-width: 1180px) {
   .navbar {
@@ -364,5 +412,9 @@ ul a {
   .borrow-content,
 .delivery-content {
     height: 150px;
+  }
+  .footer-guid {
+    display: block;
+    font-size: 14px;
   }
 }/*# sourceMappingURL=all.css.map */
