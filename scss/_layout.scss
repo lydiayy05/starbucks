@@ -220,6 +220,8 @@
 
     .detail {
         // float: right;
+        position:absolute;
+        right:0;
 
 
         h1,
@@ -246,24 +248,31 @@
         }
     }
 
-    .d-flex {
-        display: flex;
-    }
+    // .d-flex {
+    //     display: flex;
+    // }
 
-    .row-reverse {
-        display: flex;
-        flex-direction: row-reverse;
-    }
+    // .row-reverse {
+    //     display: flex;
+    //     flex-direction: row-reverse;
+    // }
 
     .borrow,
     .delivery {
         width: 50%;
-        display: flex;
-        flex-direction: column-reverse;
+        // margin:0;
+        // margin:10px;
+        // display: flex;
+        // flex-direction: column-reverse;
     }
 
     .borrow {
-        border-inline-end: white 15px solid;
+        // position:absolute;
+        // left:0;
+        
+
+
+        // border-inline-end: white 15px solid;
     }
 
     .borrow img {
@@ -272,12 +281,18 @@
 
     .borrow-content,
     .delivery-content {
+
         height: 300px;
+
     }
+
 
     .ad {
         width: 150px;
     }
+
+   
+
 
     .footer-content {
         background-image: url(/images/wordmark_footer.png);
@@ -299,14 +314,6 @@
             font-size: 16px;
         }
     }
-
-
-
-
-
-
-
-
 
 
 }

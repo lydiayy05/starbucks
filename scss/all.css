@@ -330,6 +330,10 @@ footer {
     border: white solid 1px;
     color: white;
   }
+  .detail {
+    position: absolute;
+    right: 0;
+  }
   .detail h1,
 .detail h3 {
     margin-bottom: 1.6rem;
@@ -346,22 +350,9 @@ footer {
   .login img {
     width: 50%;
   }
-  .d-flex {
-    display: flex;
-  }
-  .row-reverse {
-    display: flex;
-    flex-direction: row-reverse;
-  }
   .borrow,
 .delivery {
     width: 50%;
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .borrow {
-    -webkit-border-end: white 15px solid;
-            border-inline-end: white 15px solid;
   }
   .borrow img {
     height: -webkit-fit-content;
