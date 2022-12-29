@@ -257,13 +257,17 @@
     //     flex-direction: row-reverse;
     // }
 
+    .container-box{
+        display: flex;
+    }
+
     .borrow,
     .delivery {
         width: 50%;
         // margin:0;
         // margin:10px;
-        // display: flex;
-        // flex-direction: column-reverse;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .borrow {
@@ -272,7 +276,7 @@
         
 
 
-        // border-inline-end: white 15px solid;
+        border-inline-end: white 20px solid;
     }
 
     .borrow img {
